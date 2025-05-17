@@ -32,7 +32,6 @@ Register Number: 212222040008
 */
 
 def minJumps(arr, n):
-    ##########  Add your code here ##############
     jumps = [0 for i in range(n)]
  
     if (n == 0) or (arr[0] == 0):
